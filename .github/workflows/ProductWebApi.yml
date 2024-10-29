@@ -17,11 +17,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # Set up .NET Core SDK
-      - name: Set up .NET Core
-        uses: actions/setup-dotnet@v3
-        with:
-          dotnet-version: '8.0.x' # Specify the .NET version your project uses
+      # # Set up .NET Core SDK
+      # - name: Set up .NET Core
+      #   uses: actions/setup-dotnet@v3
+      #   with:
+      #     dotnet-version: '8.0.x' # Specify the .NET version your project uses
 
       # Install dependencies and restore
       - name: Restore dependencies
