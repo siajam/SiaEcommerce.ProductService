@@ -7,6 +7,10 @@ on:
   pull_request:
     branches:
       - main
+  workflow_dispatch:
+    inputs:
+      my_input:          # <--- this line declares the input
+        required: false
 
 env:
   AWS_REGION: ap-southeast-2 # Replace with your AWS region
